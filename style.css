@@ -9,3 +9,27 @@
     --background-500: #7d777b;
     --background-600: #969094;
 }
+
+body {
+    background-color: var(--background-100);
+    color: var(--text);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--primary);
+}
+
+.service {
+    background-color: var(--background-200);
+    border: 2px solid var(--background-300);
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.service>h2, .service>p {
+    margin: 0;
+    padding: 0;
+}
