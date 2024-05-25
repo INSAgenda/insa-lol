@@ -27,9 +27,58 @@ a {
     margin: 1rem 0;
     padding: 1rem;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
-.service>h2, .service>p {
+.service>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.service h2, .service p {
     margin: 0;
     padding: 0;
+}
+
+.service-logo {
+    height: 3rem;
+}
+
+.grower {
+    flex-grow: 1;
+}
+
+.service-maintainers {
+    font-size: .8rem;
+    margin: .5rem 0 !important;
+}
+
+.service-primary-cta, .service-secondary-cta {
+    border: 2px solid var(--background-300);
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: var(--color);
+    text-decoration: none;
+    padding: 0 .5rem;
+    margin-right: .5rem;
+    border-radius: .4rem;
+}
+
+.service-primary-cta {
+    border: 2px solid var(--background-400);
+    background-color: var(--background-300);
+}
+
+.service-primary-cta:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.service-secondary-cta:hover {
+    border-color: var(--primary);
+    color: var(--primary);
 }
