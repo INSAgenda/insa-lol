@@ -65,6 +65,7 @@ message:
         <li>- Envoi d'emails insa.lol</li>
         <li>- Hébergement</li>
         <li>- Comptes Mastodon</li>
+        <li>- Mise en avant</li>
     </ul>
     <br/>
     Nous cherchons également désespérément des développeurs Rust pour reprendre les services existants quand nous quitterons l'INSA. Contactez-nous sur Discord ou par mail !
