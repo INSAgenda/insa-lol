@@ -119,7 +119,7 @@ services:
     items:
       - name: "Matrix"
         logo: "assets/matrix.svg"
-        subtitle: "Rentrez dans le harem de Simon 👀"
+        subtitle: "Discutez avec les autres étudiants"
         tag: "app"
         keywords: "chat et messagerie instantanée"
         url: "https://element.insa.lol/"
