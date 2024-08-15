@@ -16,7 +16,7 @@ connectivityCheck: true
 
 # Set the default layout and color scheme
 defaults:
-  layout: column
+  layout: columns
   colorTheme: dark
 
 # Optional theming
