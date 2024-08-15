@@ -96,7 +96,7 @@ services:
 
       - name: "Wifi WPA"
         logo: "assets/wifi.png"
-        subtitle: "Obtenez le mot de passe pour le wifi de l'INSA"
+        subtitle: "Obtenez le mot de passe du wifi de l'INSA"
         tag: "compte"
         keywords: "wifi et mot de passe"
         url: "https://mastodon.insa.lol/@wifi"
