@@ -94,19 +94,19 @@ services:
         keywords: "emploi du temps et agenda"
         url: "https://insagenda.fr/"
 
-      - name: "INSA-Scan"
-        logo: "assets/scan.svg"
-        subtitle: "Listez les machines de l'INSA"
-        tag: "tool"
-        keywords: "liste les machines allumées pour vous y connecter en SSH"
-        url: "https://scan.insa.lol/"
-
       - name: "Wifi WPA"
         logo: "assets/wifi.png"
         subtitle: "Obtenez le mot de passe pour le wifi de l'INSA"
         tag: "compte"
         keywords: "wifi et mot de passe"
         url: "https://mastodon.insa.lol/@wifi"
+
+      - name: "INSA-Scan"
+        logo: "assets/scan.svg"
+        subtitle: "Listez les machines de l'INSA"
+        tag: "tool"
+        keywords: "liste les machines allumées pour vous y connecter en SSH"
+        url: "https://scan.insa.lol/"
 
       - name: "INSearch (en projet)"
         logo: "assets/search.svg"
