@@ -101,6 +101,13 @@ services:
         keywords: "wifi et mot de passe"
         url: "https://mastodon.insa.lol/@wifi"
 
+      - name: "INSA-login-rememberer"
+        logo: "assets/login.svg"
+        subtitle: "Restez connectés pour toujours au CAS"
+        tag: "tool"
+        keywords: "login et mot de passe"
+        url: "https://github.com/Mubelotix/insa-login-rememberer"
+
       - name: "INSA-Scan"
         logo: "assets/scan.svg"
         subtitle: "Listez les machines de l'INSA"
