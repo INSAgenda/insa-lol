@@ -1,0 +1,156 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+# See https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md for documentation
+
+title: "Bienvenue sur INSA.lol"
+subtitle: "Liste des services"
+documentTitle: "INSA.lol"
+icon: "fas fa-skull-crossbones"
+
+header: true
+footer: '<p>Créé par <a href="https://mastodon.insa.lol/@alix_anneraud">Alix</a>, <a href="https://mastodon.insa.lol/@dimitri_timoz">Dimitri</a> et <a href="https://mastodon.insa.lol/@simon_girard">Simon</a></p>' # set false if you want to hide it.
+
+columns: "auto" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+connectivityCheck: true
+
+# Set the default layout and color scheme
+defaults:
+  layout: list
+  colorTheme: dark
+
+# Optional theming
+theme: default # 'default' or one of the themes available in 'src/assets/themes'.
+
+stylesheet:
+  - "assets/custom.css"
+
+colors:
+  light:
+    highlight-primary: "#DC6ACF"
+    highlight-secondary: "#f4a6eb"
+    highlight-hover: "#f475e5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#424242"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#f475e5"
+    link-hover: "#DC6ACF"
+  dark:
+    highlight-primary: "#DC6ACF"
+    highlight-secondary: "#c15db6"
+    highlight-hover: "#DC6ACF"
+    background: "#241b22"
+    card-background: "#393037"
+    text: "#fafafa"
+    text-header: "#fff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: none
+    link: "#c15db6"
+    link-hover: "#DC6ACF"
+
+message:
+  style: "is-info"
+  title: "Rejoignez-nous !"
+  icon: "far fa-lightbulb"
+  content: |
+    Vous avez une idée de service à proposer aux étudiants de l'INSA de Rouen ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
+    <ul>
+        <li>- Nom de domaine en insa.lol</li>
+        <li>- Authentification INSA</li>
+        <li>- Envoi d'emails insa.lol</li>
+        <li>- Hébergement</li>
+        <li>- Comptes Mastodon</li>
+    </ul>
+    <br/>
+    Nous cherchons également désespérément des développeurs Rust pour reprendre les services existants quand nous quitterons l'INSA. Contactez-nous sur Discord ou par mail !
+
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/INSAgenda"
+  - name: "Discord"
+    icon: "fa-brands fa-discord"
+    url: "https://discord.gg/TpdbUyfcbJ"
+  - name: "Mastodon"
+    icon: "fa-brands fa-mastodon"
+    url: "https://mastodon.insa.lol/@insagenda"
+  - name: "Email"
+    icon: "fa fa-envelope"
+    url: "mailto:sgirard@insa-rouen.fr,dtimoz@insa-rouen.fr,aanneraud@insa-rouen.fr"
+
+services:
+  - name: "Outils"
+    icon: "fas fa-tools"
+    items:
+      - name: "INSAgenda"
+        logo: "assets/insagenda.svg"
+        subtitle: "Consultez votre emploi du temps"
+        tag: "app"
+        keywords: "emploi du temps et agenda"
+        url: "https://insagenda.fr/"
+
+      - name: "INSA-Scan"
+        logo: "assets/scan.svg"
+        subtitle: "Listez les machines de l'INSA"
+        tag: "tool"
+        keywords: "liste les machines allumées pour vous y connecter en SSH"
+        url: "https://scan.insa.lol/"
+
+      - name: "Wifi WPA"
+        logo: "assets/wifi.png"
+        subtitle: "Obtenez le mot de passe pour le wifi de l'INSA"
+        tag: "compte"
+        keywords: "wifi et mot de passe"
+        url: "https://mastodon.insa.lol/@wifi"
+
+      - name: "INSearch (en projet)"
+        logo: "assets/search.svg"
+        subtitle: "Recherchez sur tout le réseau privé INSA"
+        tag: "tool"
+        keywords: "moteur de recherche"
+
+  - name: "Social"
+    icon: "fas fa-users"
+    items:
+      - name: "Matrix"
+        logo: "assets/matrix.svg"
+        subtitle: "Discutez avec les autres étudiants"
+        tag: "app"
+        keywords: "chat et messagerie instantanée"
+        url: "https://element.insa.lol/"
+
+      - name: "Mastodon"
+        logo: "assets/mastodon.svg"
+        subtitle: "Suivez l'actualité de l'INSA"
+        tag: "app"
+        keywords: "réseau social et microblogging"
+        url: "https://mastodon.insa.lol/public/local"
+  
+  - name: "Divertissement"
+    icon: "fas fa-gamepad"
+    items:
+      - name: "INSA Movies"
+        logo: "assets/movies.svg"
+        subtitle: "Regardez des films et séries gratuitement"
+        tag: "app"
+        keywords: "films et séries gratuits"
+        url: "https://movies.insa.lol/"
+
+      - name: "Free-Picolo"
+        logo: "assets/picolo.webp"
+        subtitle: "Jouez à la version premium de Picolo gratuitement"
+        tag: "app"
+        keywords: "jeu de soirée et à boire"
+        url: "https://picolo.insa.lol/"
+
+      - name: "Insa Stats (inactif)"
+        logo: "assets/stats.jpg"
+        subtitle: "Consultez des statistiques variées sur l'INSA"
+        tag: "compte"
+        keywords: "statistiques et données"
+        url: "https://instagram.com/insa_stats"

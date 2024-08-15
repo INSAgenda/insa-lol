@@ -1,0 +1,4 @@
+#main-section > .container > div {
+    display: flex;
+    flex-direction: column-reverse;
+}
