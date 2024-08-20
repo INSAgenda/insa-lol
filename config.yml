@@ -93,7 +93,7 @@ services:
         subtitle: "Consultez votre emploi du temps"
         tag: "agenda"
         keywords: "emploi du temps et agenda"
-        url: "https://insagenda.fr/"
+        url: "https://insagenda.insa.lol/"
 
       - name: "Wifi WPA"
         logo: "assets/wifi.png"
