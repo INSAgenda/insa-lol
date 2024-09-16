@@ -142,6 +142,13 @@ services:
         tag: "mastodon"
         keywords: "réseau social et microblogging"
         url: "https://mastodon.insa.lol/public/local"
+
+      - name: "Pixel War (temporaire)"
+        logo: "assets/pixelwar.ico"
+        subtitle: "Participez à pixel war 2024 pour les 3A !"
+        tag: "pixelwar"
+        keywords: "jeu et pixel art"
+        url: "https://pixelwar.insa.lol/"
   
   - name: "Divertissement"
     icon: "fas fa-gamepad"
