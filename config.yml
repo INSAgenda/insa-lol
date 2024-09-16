@@ -84,6 +84,9 @@ links:
   - name: "Email"
     icon: "fa fa-envelope"
     url: "mailto:sgirard@insa-rouen.fr,dtimoz@insa-rouen.fr,aanneraud@insa-rouen.fr"
+  - name: "Status"
+    icon: "fas fa-heartbeat"
+    url: "https://status.insa.lol/"
 
 services:
   - name: "Outils"
