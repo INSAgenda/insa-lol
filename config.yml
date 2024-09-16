@@ -64,6 +64,7 @@ message:
         <li>- Authentification INSA</li>
         <li>- Envoi d'emails insa.lol</li>
         <li>- Hébergement</li>
+        <li>- Analytics (Plausible)</li>
         <li>- Comptes Mastodon</li>
         <li>- Mise en avant</li>
     </ul>
