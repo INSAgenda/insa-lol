@@ -126,6 +126,13 @@ services:
         tag: "search"
         keywords: "moteur de recherche"
 
+      - name: "Status"
+        logo: "assets/heart-pulse.svg"
+        subtitle: "Consultez l'état des services d'insa.lol et de l'INSA."
+        tag: "status"
+        keywords: "état"
+        url: "https://status.insa.lol"
+
   - name: "Social"
     icon: "fas fa-users"
     items:
