@@ -113,9 +113,9 @@ services:
         keywords: "login et mot de passe"
         url: "https://github.com/Mubelotix/insa-login-rememberer"
 
-      - name: "INSA-Scan"
+      - name: "INSA-Scan (cassé)"
         logo: "assets/scan.svg"
-        subtitle: "Listez les machines de l'INSA (broken)"
+        subtitle: "Listez les machines de l'INSA"
         tag: "scan"
         keywords: "liste les machines allumées pour vous y connecter en SSH"
         url: "https://scan.insa.lol/"
@@ -143,7 +143,7 @@ services:
         keywords: "réseau social et microblogging"
         url: "https://mastodon.insa.lol/public/local"
 
-      - name: "Pixel War (temporaire)"
+      - name: "Pixel War (terminé)"
         logo: "assets/pixelwar.ico"
         subtitle: "Participez à pixel war 2024 pour les 3A !"
         tag: "pixelwar"
