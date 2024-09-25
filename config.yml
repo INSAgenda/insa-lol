@@ -113,6 +113,11 @@ services:
         keywords: "login et mot de passe"
         url: "https://github.com/Mubelotix/insa-login-rememberer"
 
+      - name: "Rust Playground"
+        subtitle: "Essayez Rust directement dans votre navigateur"
+        tag: "rust"
+        url: "https://playground.insa.lol"
+
       - name: "INSA-Scan (cassé)"
         logo: "assets/scan.svg"
         subtitle: "Listez les machines de l'INSA"
