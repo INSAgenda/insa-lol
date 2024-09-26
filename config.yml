@@ -118,18 +118,18 @@ services:
         tag: "rust"
         url: "https://playground.insa.lol"
 
-      - name: "INSA-Scan (cassé)"
-        logo: "assets/scan.svg"
-        subtitle: "Listez les machines de l'INSA"
-        tag: "scan"
-        keywords: "liste les machines allumées pour vous y connecter en SSH"
-        url: "https://scan.insa.lol/"
-
       - name: "INSearch (en projet)"
         logo: "assets/search.svg"
         subtitle: "Recherchez sur tout le réseau privé INSA"
         tag: "search"
         keywords: "moteur de recherche"
+
+      - name: "INSA-Scan (inactif)"
+        logo: "assets/scan.svg"
+        subtitle: "Listez les machines de l'INSA"
+        tag: "scan"
+        keywords: "liste les machines allumées pour vous y connecter en SSH"
+        url: "https://scan.insa.lol/"
 
   - name: "Social"
     icon: "fas fa-users"
