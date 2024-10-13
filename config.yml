@@ -99,6 +99,13 @@ services:
         keywords: "emploi du temps et agenda"
         url: "https://insagenda.insa.lol/"
 
+      - name: "INS'Outline"
+        logo: "assets/outline.svg"
+        subtitle: "Partagez et éditez des documents à plusieurs"
+        tag: "outline"
+        keywords: "documents docs outline markdown latex"
+        url: "https://docs.insa.lol/"
+
       - name: "Wifi WPA"
         logo: "assets/wifi.png"
         subtitle: "Obtenez le mot de passe du wifi de l'INSA"
@@ -114,6 +121,7 @@ services:
         url: "https://github.com/Mubelotix/insa-login-rememberer"
 
       - name: "Rust Playground"
+        logo: "assets/ferris.svg"
         subtitle: "Essayez Rust directement dans votre navigateur"
         tag: "rust"
         url: "https://playground.insa.lol"
