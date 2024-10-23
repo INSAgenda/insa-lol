@@ -156,6 +156,24 @@ services:
         keywords: "réseau social et microblogging"
         url: "https://mastodon.insa.lol/public/local"
 
+      # Pas encore disponible
+      # 
+      # - name: "Instagram amélioré"
+      #   logo: "assets/instagram.svg"
+      #   subtitle: "Instagram sans publicités"
+      #   tag: "instagram"
+      #   keywords: "réseau social et photos"
+      #   url: "https://fdroid.insa.lol/"
+
+      # TODO: use https://github.com/crimera/piko
+      # 
+      # - name: Twitter amélioré
+      #   logo: "assets/twitter.svg"
+      #   subtitle: "Twitter sans publicités"
+      #   tag: "twitter"
+      #   keywords: "réseau social et microblogging"
+      #   url: "https://fdroid.insa.lol/"
+
       - name: "Pixel War (terminé)"
         logo: "assets/pixelwar.ico"
         subtitle: "Participez à pixel war 2024 pour les 3A !"
@@ -179,6 +197,20 @@ services:
         tag: "picolo"
         keywords: "jeu de soirée et à boire"
         url: "https://picolo.insa.lol/"
+
+      - name: "Youtube amélioré"
+        logo: "assets/youtube.svg"
+        subtitle: "Youtube sans publicités, lecture en arrière plan et passage automatique des sponsors"
+        tag: "youtube"
+        keywords: "vidéos et streaming"
+        url: "https://fdroid.insa.lol/"
+
+      - name: "Youtube Music amélioré"
+        logo: "assets/youtube-music.svg"
+        subtitle: "Youtube Music sans publicités et lecture en arrière plan"
+        tag: "youtube-music"
+        keywords: "musique et streaming"
+        url: "https://fdroid.insa.lol/"
 
       - name: "Insa Stats (inactif)"
         logo: "assets/stats.jpg"
