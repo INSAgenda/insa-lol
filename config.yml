@@ -94,7 +94,7 @@ services:
     items:
       - name: "INSAgenda"
         logo: "assets/insagenda.svg"
-        subtitle: "Consultez votre emploi du temps"
+        subtitle: "Consultez votre emploi du temps et celui de vos amis"
         tag: "agenda"
         keywords: "emploi du temps et agenda"
         url: "https://insagenda.insa.lol/"
@@ -120,11 +120,11 @@ services:
         keywords: "login et mot de passe"
         url: "https://github.com/Mubelotix/insa-login-rememberer"
 
-      - name: "INSearch (en projet)"
-        logo: "assets/search.svg"
-        subtitle: "Recherchez sur tout le réseau privé INSA"
-        tag: "search"
-        keywords: "moteur de recherche"
+      # - name: "INSearch (en projet)"
+      #   logo: "assets/search.svg"
+      #   subtitle: "Recherchez sur tout le réseau privé INSA"
+      #   tag: "search"
+      #   keywords: "moteur de recherche"
 
       - name: "INSA-Scan (inactif)"
         logo: "assets/scan.svg"
@@ -168,6 +168,13 @@ services:
       #   keywords: "réseau social et microblogging"
       #   url: "https://fdroid.insa.lol/"
 
+      - name: "Stotra"
+        logo: "assets/stotra.svg"
+        subtitle: "Classez-vous face aux autres étudiants dans ce simulateur d'investissement basé sur les cours réels de la bourse"
+        tag: "bourse"
+        keywords: "bourse et investissement"
+        url: "https://stotra.insa.lol/leaderboard"
+
       - name: "Pixel War (terminé)"
         logo: "assets/pixelwar.ico"
         subtitle: "Participez à pixel war 2024 pour les 3A !"
@@ -183,7 +190,7 @@ services:
         subtitle: "Regardez des films et séries gratuitement"
         tag: "movies"
         keywords: "films et séries gratuits"
-        url: "https://movies.insa.lol/"
+        url: "https://www.vidbinge.com/"
 
       - name: "Free-Picolo"
         logo: "assets/picolo.webp"
@@ -206,7 +213,7 @@ services:
         keywords: "musique et streaming"
         url: "https://fdroid.insa.lol/"
 
-      - name: "Insa Stats (inactif)"
+      - name: "Insa Stats"
         logo: "assets/stats.jpg"
         subtitle: "Consultez des statistiques variées sur l'INSA"
         tag: "stats"
