@@ -95,7 +95,7 @@ services:
         keywords: "emploi du temps et agenda"
         url: "https://insagenda.insa.lol/"
 
-      - name: "INS'Outline"
+      - name: "***'Outline"
         logo: "assets/outline.svg"
         subtitle: "Partagez et éditez des documents à plusieurs"
         tag: "outline"
