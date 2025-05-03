@@ -6,7 +6,7 @@
 title: "Bienvenue sur .lol"
 subtitle: "Liste des services"
 documentTitle: ".lol"
-logo: "assets/logo.png"
+# logo: "assets/logo.png"
 
 header: true
 footer: '<p>Créé par <a href="https://alix.anneraud.fr">Alix</a>, <a href="https://mastodon.insa.lol/@dimitri_timoz">Dimitri</a> et <a href="https://mastodon.insa.lol/@simon_girard">Simon</a></p>' # set false if you want to hide it.
