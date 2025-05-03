@@ -58,7 +58,7 @@ message:
   title: "Rejoignez-nous !"
   icon: "far fa-lightbulb"
   content: |
-    Vous avez une idée de service à proposer aux étudiants de l'**** de Rouen ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
+    Vous avez une idée de service à proposer aux étudiants ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
     <ul>
         <li>- Sous-domaine</li>
         <li>- Authentification</li>
@@ -106,27 +106,27 @@ services:
       # 
       # - name: "Wifi WPA"
       #   logo: "assets/wifi.png"
-      #   subtitle: "Obtenez le mot de passe du wifi de l'****"
+      #   subtitle: "Obtenez le mot de passe du wifi"
       #   tag: "wifi"
       #   keywords: "wifi et mot de passe"
       #   url: "https://mastodon.insa.lol/@wifi"
 
-      - name: "****-login-rememberer"
+      - name: "login-rememberer"
         logo: "assets/login.svg"
         subtitle: "Restez connectés pour toujours au CAS"
         tag: "cas"
         keywords: "login et mot de passe"
         url: "https://github.com/Mubelotix/insa-login-rememberer"
 
-      # - name: "***earch (en projet)"
+      # - name: "Search (en projet)"
       #   logo: "assets/search.svg"
-      #   subtitle: "Recherchez sur tout le réseau privé ****"
+      #   subtitle: "Recherchez sur tout le réseau privé"
       #   tag: "search"
       #   keywords: "moteur de recherche"
 
-      - name: "****-Scan (abandonné)"
+      - name: "Scan (abandonné)"
         logo: "assets/scan.svg"
-        subtitle: "Listez les machines de l'****"
+        subtitle: "Listez les machines"
         tag: "scan"
         keywords: "liste les machines allumées pour vous y connecter en SSH"
         url: "https://scan.insa.lol/"
@@ -175,7 +175,7 @@ services:
 
       - name: "Mastodon (abandonné)"
         logo: "assets/mastodon.svg"
-        subtitle: "Suivez l'actualité de l'****"
+        subtitle: "Suivez l'actualité de l'école"
         tag: "mastodon"
         keywords: "réseau social et microblogging"
         url: "https://mastodon.insa.lol/public/local"
@@ -185,7 +185,7 @@ services:
     items:
       # Abandonné
       # 
-      # - name: "**** Movies"
+      # - name: "Movies"
       #   logo: "assets/movies.svg"
       #   subtitle: "Regardez des films et séries gratuitement"
       #   tag: "movies"
@@ -219,9 +219,9 @@ services:
       #   keywords: "musique et streaming"
       #   url: "https://fdroid.insa.lol/"
 
-      - name: "**** Stats"
+      - name: "Stats"
         logo: "assets/stats.jpg"
-        subtitle: "Consultez des statistiques variées sur l'****"
+        subtitle: "Consultez des statistiques variées sur l'école"
         tag: "stats"
         keywords: "statistiques et données"
         url: "https://instagram.com/insa_stats"
