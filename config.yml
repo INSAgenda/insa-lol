@@ -88,7 +88,7 @@ services:
   - name: "Outils"
     icon: "fas fa-tools"
     items:
-      - name: "genda"
+      - name: "Agenda"
         logo: "assets/insagenda.svg"
         subtitle: "Consultez votre emploi du temps et celui de vos amis"
         tag: "agenda"
@@ -111,12 +111,14 @@ services:
       #   keywords: "wifi et mot de passe"
       #   url: "https://mastodon.insa.lol/@wifi"
 
-      - name: "login-rememberer"
-        logo: "assets/login.svg"
-        subtitle: "Restez connectés pour toujours au CAS"
-        tag: "cas"
-        keywords: "login et mot de passe"
-        url: "https://github.com/Mubelotix/insa-login-rememberer"
+      # TODO: Romet
+      # 
+      # - name: "login-rememberer"
+      #   logo: "assets/login.svg"
+      #   subtitle: "Restez connectés pour toujours au CAS"
+      #   tag: "cas"
+      #   keywords: "login et mot de passe"
+      #   url: "https://github.com/Mubelotix/insa-login-rememberer"
 
       # - name: "Search (en projet)"
       #   logo: "assets/search.svg"
@@ -124,12 +126,14 @@ services:
       #   tag: "search"
       #   keywords: "moteur de recherche"
 
-      - name: "Scan (abandonné)"
-        logo: "assets/scan.svg"
-        subtitle: "Listez les machines"
-        tag: "scan"
-        keywords: "liste les machines allumées pour vous y connecter en SSH"
-        url: "https://scan.insa.lol/"
+      # TODO: Romet
+      # 
+      # - name: "Scan (abandonné)"
+      #   logo: "assets/scan.svg"
+      #   subtitle: "Listez les machines"
+      #   tag: "scan"
+      #   keywords: "liste les machines allumées pour vous y connecter en SSH"
+      #   url: "https://scan.insa.lol/"
 
   - name: "Social"
     icon: "fas fa-users"
