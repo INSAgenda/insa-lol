@@ -3,9 +3,9 @@
 # See https://fontawesome.com/v5/search for icons options
 # See https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md for documentation
 
-title: "Bienvenue sur INSA.lol"
+title: "Bienvenue sur ****.lol"
 subtitle: "Liste des services"
-documentTitle: "INSA.lol"
+documentTitle: "****.lol"
 logo: "assets/logo.png"
 
 header: true
@@ -58,18 +58,17 @@ message:
   title: "Rejoignez-nous !"
   icon: "far fa-lightbulb"
   content: |
-    Vous avez une idée de service à proposer aux étudiants de l'INSA de Rouen ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
+    Vous avez une idée de service à proposer aux étudiants de l'**** de Rouen ? Nous pouvons vous aider et soutenir ! Voici les outils que nous pouvons mettre à votre disposition :
     <ul>
-        <li>- Nom de domaine en insa.lol</li>
-        <li>- Authentification INSA</li>
-        <li>- Envoi d'emails insa.lol</li>
+        <li>- Sous-domaine</li>
+        <li>- Authentification</li>
+        <li>- Envoi d'emails</li>
         <li>- Hébergement</li>
         <li>- Analytics (Plausible)</li>
-        <li>- Comptes Mastodon</li>
         <li>- Mise en avant</li>
     </ul>
     <br/>
-    Nous cherchons également désespérément des développeurs Rust pour reprendre les services existants quand nous quitterons l'INSA. Contactez-nous sur Discord ou par mail !
+    Nous ne sommes pas affiliés à l'organisation dont le nom figure dans le nom de domaine. Nous sommes un groupe d'étudiants qui essayons de simplifier la vie des étudiants. Si vous avez des questions, n'hésitez pas à nous contacter !
 
 links:
   - name: "GitHub"
@@ -78,9 +77,6 @@ links:
   - name: "Discord"
     icon: "fa-brands fa-discord"
     url: "https://discord.gg/TpdbUyfcbJ"
-  - name: "Mastodon"
-    icon: "fa-brands fa-mastodon"
-    url: "https://mastodon.insa.lol/@insagenda"
   - name: "Email"
     icon: "fa fa-envelope"
     url: "mailto:sgirard@insa-rouen.fr,dtimoz@insa-rouen.fr,aanneraud@insa-rouen.fr"
@@ -92,7 +88,7 @@ services:
   - name: "Outils"
     icon: "fas fa-tools"
     items:
-      - name: "INSAgenda"
+      - name: "genda"
         logo: "assets/insagenda.svg"
         subtitle: "Consultez votre emploi du temps et celui de vos amis"
         tag: "agenda"
@@ -106,29 +102,31 @@ services:
         keywords: "documents docs outline markdown latex"
         url: "https://docs.insa.lol/"
 
-      - name: "Wifi WPA"
-        logo: "assets/wifi.png"
-        subtitle: "Obtenez le mot de passe du wifi de l'INSA"
-        tag: "wifi"
-        keywords: "wifi et mot de passe"
-        url: "https://mastodon.insa.lol/@wifi"
+      # Abandonné
+      # 
+      # - name: "Wifi WPA"
+      #   logo: "assets/wifi.png"
+      #   subtitle: "Obtenez le mot de passe du wifi de l'****"
+      #   tag: "wifi"
+      #   keywords: "wifi et mot de passe"
+      #   url: "https://mastodon.insa.lol/@wifi"
 
-      - name: "INSA-login-rememberer"
+      - name: "****-login-rememberer"
         logo: "assets/login.svg"
         subtitle: "Restez connectés pour toujours au CAS"
         tag: "cas"
         keywords: "login et mot de passe"
         url: "https://github.com/Mubelotix/insa-login-rememberer"
 
-      # - name: "INSearch (en projet)"
+      # - name: "***earch (en projet)"
       #   logo: "assets/search.svg"
-      #   subtitle: "Recherchez sur tout le réseau privé INSA"
+      #   subtitle: "Recherchez sur tout le réseau privé ****"
       #   tag: "search"
       #   keywords: "moteur de recherche"
 
-      - name: "INSA-Scan (inactif)"
+      - name: "****-Scan (inactif)"
         logo: "assets/scan.svg"
-        subtitle: "Listez les machines de l'INSA"
+        subtitle: "Listez les machines de l'****"
         tag: "scan"
         keywords: "liste les machines allumées pour vous y connecter en SSH"
         url: "https://scan.insa.lol/"
@@ -142,13 +140,6 @@ services:
         tag: "matrix"
         keywords: "chat et messagerie instantanée"
         url: "https://element.insa.lol/"
-
-      - name: "Mastodon"
-        logo: "assets/mastodon.svg"
-        subtitle: "Suivez l'actualité de l'INSA"
-        tag: "mastodon"
-        keywords: "réseau social et microblogging"
-        url: "https://mastodon.insa.lol/public/local"
 
       # Pas encore disponible
       # 
@@ -181,41 +172,56 @@ services:
         tag: "pixelwar"
         keywords: "jeu et pixel art"
         url: "https://pixelwar.insa.lol/"
+
+      - name: "Mastodon (abandonné)"
+        logo: "assets/mastodon.svg"
+        subtitle: "Suivez l'actualité de l'****"
+        tag: "mastodon"
+        keywords: "réseau social et microblogging"
+        url: "https://mastodon.insa.lol/public/local"
   
   - name: "Divertissement"
     icon: "fas fa-gamepad"
     items:
-      - name: "INSA Movies"
-        logo: "assets/movies.svg"
-        subtitle: "Regardez des films et séries gratuitement"
-        tag: "movies"
-        keywords: "films et séries gratuits"
-        url: "https://www.vidbinge.com/"
+      # Abandonné
+      # 
+      # - name: "**** Movies"
+      #   logo: "assets/movies.svg"
+      #   subtitle: "Regardez des films et séries gratuitement"
+      #   tag: "movies"
+      #   keywords: "films et séries gratuits"
+      #   url: "https://www.vidbinge.com/"
 
-      - name: "Free-Picolo"
-        logo: "assets/picolo.webp"
-        subtitle: "Jouez à la version premium de Picolo gratuitement"
-        tag: "picolo"
-        keywords: "jeu de soirée et à boire"
-        url: "https://picolo.insa.lol/"
+      # TODO: Le remettre
+      # 
+      # - name: "Free-Picolo"
+      #   logo: "assets/picolo.webp"
+      #   subtitle: "Jouez à la version premium de Picolo gratuitement"
+      #   tag: "picolo"
+      #   keywords: "jeu de soirée et à boire"
+      #   url: "https://picolo.insa.lol/"
 
-      - name: "Youtube amélioré"
-        logo: "assets/youtube.svg"
-        subtitle: "Youtube sans publicités, lecture en arrière plan et passage automatique des sponsors"
-        tag: "youtube"
-        keywords: "vidéos et streaming"
-        url: "https://fdroid.insa.lol/"
+      # Censuré
+      # 
+      # - name: "Youtube amélioré"
+      #   logo: "assets/youtube.svg"
+      #   subtitle: "Youtube sans publicités, lecture en arrière plan et passage automatique des sponsors"
+      #   tag: "youtube"
+      #   keywords: "vidéos et streaming"
+      #   url: "https://fdroid.insa.lol/"
 
-      - name: "Youtube Music amélioré"
-        logo: "assets/youtube-music.svg"
-        subtitle: "Youtube Music sans publicités et lecture en arrière plan"
-        tag: "youtube-music"
-        keywords: "musique et streaming"
-        url: "https://fdroid.insa.lol/"
+      # Censuré
+      # 
+      # - name: "Youtube Music amélioré"
+      #   logo: "assets/youtube-music.svg"
+      #   subtitle: "Youtube Music sans publicités et lecture en arrière plan"
+      #   tag: "youtube-music"
+      #   keywords: "musique et streaming"
+      #   url: "https://fdroid.insa.lol/"
 
-      - name: "Insa Stats"
+      - name: "**** Stats"
         logo: "assets/stats.jpg"
-        subtitle: "Consultez des statistiques variées sur l'INSA"
+        subtitle: "Consultez des statistiques variées sur l'****"
         tag: "stats"
         keywords: "statistiques et données"
         url: "https://instagram.com/insa_stats"
