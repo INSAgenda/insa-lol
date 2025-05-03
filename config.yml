@@ -124,7 +124,7 @@ services:
       #   tag: "search"
       #   keywords: "moteur de recherche"
 
-      - name: "****-Scan (inactif)"
+      - name: "****-Scan (abandonné)"
         logo: "assets/scan.svg"
         subtitle: "Listez les machines de l'****"
         tag: "scan"
