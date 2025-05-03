@@ -3,9 +3,9 @@
 # See https://fontawesome.com/v5/search for icons options
 # See https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md for documentation
 
-title: "Bienvenue sur ****.lol"
+title: "Bienvenue sur .lol"
 subtitle: "Liste des services"
-documentTitle: "****.lol"
+documentTitle: ".lol"
 logo: "assets/logo.png"
 
 header: true
