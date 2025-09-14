@@ -3,9 +3,9 @@
 # See https://fontawesome.com/v5/search for icons options
 # See https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md for documentation
 
-title: "Bienvenue sur .lol"
+title: "Bienvenue sur dera.page"
 subtitle: "Liste des services"
-documentTitle: ".lol"
+documentTitle: "dera.page"
 # logo: "assets/logo.png"
 
 header: true
@@ -82,7 +82,7 @@ links:
     url: "mailto:sgirard@insa-rouen.fr,dtimoz@insa-rouen.fr,aanneraud@insa-rouen.fr"
   - name: "Status"
     icon: "fas fa-heartbeat"
-    url: "https://status.insa.lol/"
+    url: "https://status.dera.page/"
 
 services:
   - name: "Outils"
@@ -93,14 +93,14 @@ services:
         subtitle: "Consultez votre emploi du temps et celui de vos amis"
         tag: "agenda"
         keywords: "emploi du temps et agenda"
-        url: "https://insagenda.insa.lol/"
+        url: "https://genda.dera.page/"
 
       - name: "Outline"
         logo: "assets/outline.svg"
         subtitle: "Partagez et éditez des documents à plusieurs"
         tag: "outline"
         keywords: "documents docs outline markdown latex"
-        url: "https://docs.insa.lol/"
+        url: "https://docs.dera.page/"
 
       # Abandonné
       # 
@@ -168,14 +168,14 @@ services:
         subtitle: "Classez-vous face aux autres étudiants dans ce simulateur d'investissement basé sur les cours réels de la bourse"
         tag: "bourse"
         keywords: "bourse et investissement"
-        url: "https://stotra.insa.lol/leaderboard"
+        url: "https://stotra.dera.page/leaderboard"
 
       - name: "Pixel War (terminé)"
         logo: "assets/pixelwar.ico"
         subtitle: "Participez à pixel war 2024 pour les 3A !"
         tag: "pixelwar"
         keywords: "jeu et pixel art"
-        url: "https://pixelwar.insa.lol/"
+        url: "https://pixelwar.dera.page/"
 
       - name: "Mastodon (abandonné)"
         logo: "assets/mastodon.svg"
